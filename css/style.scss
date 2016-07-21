@@ -1,0 +1,81 @@
+$bg_color: #ffffff;
+$font_color: #666666;
+$link_color: #00b893;
+$shadow_color: #eeeeee;
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: serif;
+    font-size: 18px;
+    line-height: 3em;
+    color: $font_color;
+    background: $bg_color;
+}
+
+a {
+    color: $link_color;
+    text-decoration: none;
+}
+
+/*-------------------------*/
+/*----- center container --*/
+/*-------------------------*/
+.center-container {
+    width: 900px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+
+/*------------------*/
+/*----- header -----*/
+/*------------------*/
+header {
+    padding-top: 80px;
+}
+
+/*------------------*/
+/*----- main -----*/
+/*------------------*/
+main {
+    font-family:  'Microsoft Yahei', Verdana, Arial, Helvetica, sans-serif;
+    width: 100%;
+    h1 {
+        font-size: 2.5em;
+        font-weight: normal;
+        color: black;
+        padding-bottom: 1em;
+    }
+    ul {
+        list-style-position: inside;
+        text-indent: 2em;
+    }
+    address {
+        font-style: italic;
+        font-family: serif;
+    }
+    
+    hr {
+        border: none;
+        border-bottom: 1px solid $shadow_color;
+    }
+   
+}
+
+/*------------------*/
+/*----- footer -----*/
+/*------------------*/
+footer {
+    width: 100%;
+    padding: 50px 0 10px;
+
+    p {
+        text-align: center;
+        font-size: 0.9em;
+        font-style: italic;
+    }
+}
